@@ -71,6 +71,11 @@ Dieses Jupyter-Notebook dient zur anschaulichen Visualisierung von Basisbandcodi
 https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=tanenbaum_leitungscodes.ipynb
 )
 
+[Version mit Darstellung des Spektrums](tanenbaum_leitungscodes_spektrum.ipynb)  
+[![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](
+https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=tanenbaum_leitungscodes_spektrum.ipynb
+)
+
 ### Features
 
 - Interaktive Eingabe beliebiger Bitfolgen
@@ -101,6 +106,3 @@ https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=tanenbaum_
 - Bei NRZI beeinflusst der Startpegel den Signalverlauf
 - Der Vergleichsmodus eignet sich besonders zum Verständnis der Unterschiede zwischen den Codierungen
 
-[![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](
-https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=tanenbaum_bitmuster_bandbegrenzung_ideal.ipynb
-)
