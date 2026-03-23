@@ -4,7 +4,7 @@ Jupyter Notebooks für Sachverhalte aus Tanenbaum: Computernetzwerke
 Voraussetzungen:
 
 ```
-pip install numpy matplotlib ipywidgets
+pip install numpy matplotlib ipywidgets pandas
 ```
 Optional: 
 ```
@@ -59,4 +59,48 @@ Dann geht unter dem Code die interaktive Demo auf.
 ### Bedienung
 Slider: „Harmonische“ steuert wie viele Harmonische durchgelassen werden. Entspricht direkt der Kanalbandbreite.
 
+## Interaktive Visualisierung von Basisbandcodes
 
+Dieses Jupyter-Notebook dient zur anschaulichen Visualisierung von Basisbandcodierungen und hilft dabei zu verstehen, wie digitale Bitfolgen in zeitliche Leitungssignale umgesetzt werden.
+
+<img width="967" height="806" alt="grafik" src="https://github.com/user-attachments/assets/7fc7bac7-d5aa-415b-8536-46229d0a1c7b" />
+
+[Notebook](tanenbaum_leitungscodes.ipynb)  
+  
+[![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](
+https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=tanenbaum_leitungscodes.ipynb
+)
+
+### Features
+
+- Interaktive Eingabe beliebiger Bitfolgen
+- Visualisierung der folgenden Codierungen:
+  - NRZ
+  - NRZI
+  - Manchester
+  - AMI
+- Darstellung von:
+  - Bitfolge (symbolisch)
+  - Signalverlauf (zeitlich)
+- Erklärungstabelle pro Bit (inkl. Zustandsübergänge)
+- Vergleichsmodus: alle Codierungen gleichzeitig
+- Anpassbarer Startpegel für NRZI
+
+### Bedienung
+
+1. Bitfolge in das Eingabefeld eintragen (z. B. `10110010`)
+2. gewünschte Codierung auswählen
+3. optional:
+   - Erklärungstabelle ein-/ausblenden
+   - Vergleich aller Codierungen aktivieren
+4. der Signalverlauf wird automatisch aktualisiert
+
+### Hinweise
+
+- Es sind nur Bitfolgen aus `0` und `1` erlaubt
+- Bei NRZI beeinflusst der Startpegel den Signalverlauf
+- Der Vergleichsmodus eignet sich besonders zum Verständnis der Unterschiede zwischen den Codierungen
+
+[![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](
+https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=tanenbaum_bitmuster_bandbegrenzung_ideal.ipynb
+)
