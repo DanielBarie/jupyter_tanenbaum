@@ -106,3 +106,12 @@ https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=tanenbaum_
 - Bei NRZI beeinflusst der Startpegel den Signalverlauf
 - Der Vergleichsmodus eignet sich besonders zum Verständnis der Unterschiede zwischen den Codierungen
 
+## AWGN Kanal und thermisches Rauschen
+Zur Verdeutlichung von Störungen bei der Übertragung (AWGN, AWGN-Kanal, SNR, thermisches Rauschen).
+
+
+[Notebook](awgn_thermisches_rauschen.ipynb)  
+  
+[![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](
+https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=awgn_thermisches_rauschen.ipynb
+)
