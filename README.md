@@ -115,3 +115,14 @@ Zur Verdeutlichung von Störungen bei der Übertragung (AWGN, AWGN-Kanal, SNR, t
 [![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](
 https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=awgn_thermisches_rauschen.ipynb
 )
+
+## Erasure Channel auf der Bitübertragungsschicht
+Wenn keine harte Entscheidung notwendig ist, wird das Leben leichter.
+
+[Notebook](erasure_channel_physical_layer.ipynb)  
+
+[![Öffnen in Binder](https://mybinder.org/badge_logo.svg)](
+https://mybinder.org/v2/gh/DanielBarie/jupyter_tanenbaum/main?labpath=erasure_channel_physical_layer.ipynb
+)
+
+
